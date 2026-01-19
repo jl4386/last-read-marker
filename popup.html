@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Last Read Marker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&family=Space+Grotesk:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Last Read Marker</h1>
+      <p>Save your place, jump back fast.</p>
+    </header>
+
+    <section class="actions">
+      <button id="save-current" class="primary">Save current page</button>
+      <button id="refresh-list" class="ghost">Refresh list</button>
+    </section>
+
+    <section>
+      <div class="list-header">
+        <h2>Saved pages</h2>
+        <span id="count">0</span>
+      </div>
+      <ul id="entries" class="entries"></ul>
+      <div id="empty" class="empty">No saved pages yet.</div>
+    </section>
+
+    <footer>
+      <small>Tip: open a page first, then click save.</small>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
