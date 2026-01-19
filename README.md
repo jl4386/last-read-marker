@@ -1,5 +1,7 @@
 # Last Read Marker
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A Chrome extension that saves your last read position for articles and lets you jump back instantly.
 
 ## Features
